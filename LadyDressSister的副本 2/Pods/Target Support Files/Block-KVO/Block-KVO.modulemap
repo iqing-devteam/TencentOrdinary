@@ -1,0 +1,6 @@
+framework module Block_KVO {
+  umbrella header "Block-KVO-umbrella.h"
+
+  export *
+  module * { export * }
+}

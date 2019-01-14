@@ -1,0 +1,25 @@
+source "https://github.com/CocoaPods/Specs.git"
+
+platform :ios, '7.0'
+use_frameworks!
+
+target "LadyDressSister" do
+
+#refresh
+pod 'MJRefresh'
+
+#model
+pod 'JSONModel'
+
+#net
+pod 'AFNetworking'
+pod 'SDWebImage'
+#autolayout
+pod 'PureLayout'
+#block
+pod 'BlocksKit'
+pod 'Block-KVO', :git => "https://github.com/iMartinKiss/Block-KVO.git"
+#toast
+pod 'CRToast', :git => "https://github.com/cruffenach/CRToast.git"
+pod 'UnzipKit', '~> 1.6'
+end
