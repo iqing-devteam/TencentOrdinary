@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2EBF1921EC6F8C0059EBFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EBF1821EC6F8C0059EBFA /* AppDelegate.m */; };
+		0C2EBF1F21EC6F8C0059EBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EBF1D21EC6F8C0059EBFA /* Main.storyboard */; };
+		0C2EBF2121EC6F8D0059EBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EBF2021EC6F8D0059EBFA /* Assets.xcassets */; };
+		0C2EBF2421EC6F8D0059EBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EBF2221EC6F8D0059EBFA /* LaunchScreen.storyboard */; };
+		0C2EBF2721EC6F8D0059EBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EBF2621EC6F8D0059EBFA /* main.m */; };
+		0C2EBF3121EC6F8E0059EBFA /* TencentOrdinaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EBF3021EC6F8E0059EBFA /* TencentOrdinaryTests.m */; };
+		0C2EBF3C21EC6F8E0059EBFA /* TencentOrdinaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EBF3B21EC6F8E0059EBFA /* TencentOrdinaryUITests.m */; };
+		0C2EBF5021EC70280059EBFA /* WeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EBF4C21EC70280059EBFA /* WeakScriptMessageDelegate.m */; };
+		0C2EBF5121EC70280059EBFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EBF4F21EC70280059EBFA /* ViewController.m */; };
+		8524E0E148F7C8CAD850A110 /* Pods_TencentOrdinary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73368D0D2DC048465E00E84 /* Pods_TencentOrdinary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C2EBF2D21EC6F8D0059EBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C2EBF0C21EC6F8C0059EBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2EBF1321EC6F8C0059EBFA;
+			remoteInfo = TencentOrdinary;
+		};
+		0C2EBF3821EC6F8E0059EBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C2EBF0C21EC6F8C0059EBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C2EBF1321EC6F8C0059EBFA;
+			remoteInfo = TencentOrdinary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2EBF1421EC6F8C0059EBFA /* TencentOrdinary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TencentOrdinary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2EBF1721EC6F8C0059EBFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C2EBF1821EC6F8C0059EBFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C2EBF1E21EC6F8C0059EBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C2EBF2021EC6F8D0059EBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C2EBF2321EC6F8D0059EBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C2EBF2521EC6F8D0059EBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2EBF2621EC6F8D0059EBFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C2EBF2C21EC6F8D0059EBFA /* TencentOrdinaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentOrdinaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2EBF3021EC6F8E0059EBFA /* TencentOrdinaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TencentOrdinaryTests.m; sourceTree = "<group>"; };
+		0C2EBF3221EC6F8E0059EBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2EBF3721EC6F8E0059EBFA /* TencentOrdinaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentOrdinaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2EBF3B21EC6F8E0059EBFA /* TencentOrdinaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TencentOrdinaryUITests.m; sourceTree = "<group>"; };
+		0C2EBF3D21EC6F8E0059EBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2EBF4C21EC70280059EBFA /* WeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		0C2EBF4D21EC70280059EBFA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C2EBF4E21EC70280059EBFA /* WeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		0C2EBF4F21EC70280059EBFA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C2EBF5221EC70410059EBFA /* QWDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QWDefine.h; sourceTree = "<group>"; };
+		24256045031949A723A0DE8C /* Pods-TencentOrdinary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOrdinary.release.xcconfig"; path = "Pods/Target Support Files/Pods-TencentOrdinary/Pods-TencentOrdinary.release.xcconfig"; sourceTree = "<group>"; };
+		9967AB568E700FE174F72A5E /* Pods-TencentOrdinary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOrdinary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TencentOrdinary/Pods-TencentOrdinary.debug.xcconfig"; sourceTree = "<group>"; };
+		A73368D0D2DC048465E00E84 /* Pods_TencentOrdinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TencentOrdinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C2EBF1121EC6F8C0059EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8524E0E148F7C8CAD850A110 /* Pods_TencentOrdinary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2EBF2921EC6F8D0059EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2EBF3421EC6F8E0059EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2EBF0B21EC6F8C0059EBFA = {
+			isa = PBXGroup;
+			children = (
+				0C2EBF1621EC6F8C0059EBFA /* TencentOrdinary */,
+				0C2EBF2F21EC6F8D0059EBFA /* TencentOrdinaryTests */,
+				0C2EBF3A21EC6F8E0059EBFA /* TencentOrdinaryUITests */,
+				0C2EBF1521EC6F8C0059EBFA /* Products */,
+				83CDE38DBC70A82CF1A0E224 /* Pods */,
+				66E1D5093FBEA2B151E82436 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C2EBF1521EC6F8C0059EBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EBF1421EC6F8C0059EBFA /* TencentOrdinary.app */,
+				0C2EBF2C21EC6F8D0059EBFA /* TencentOrdinaryTests.xctest */,
+				0C2EBF3721EC6F8E0059EBFA /* TencentOrdinaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C2EBF1621EC6F8C0059EBFA /* TencentOrdinary */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EBF4921EC70180059EBFA /* 工具 */,
+				0C2EBF4A21EC70180059EBFA /* 网络 */,
+				0C2EBF4B21EC70180059EBFA /* 演绘 */,
+				0C2EBF1721EC6F8C0059EBFA /* AppDelegate.h */,
+				0C2EBF1821EC6F8C0059EBFA /* AppDelegate.m */,
+				0C2EBF1D21EC6F8C0059EBFA /* Main.storyboard */,
+				0C2EBF2021EC6F8D0059EBFA /* Assets.xcassets */,
+				0C2EBF2221EC6F8D0059EBFA /* LaunchScreen.storyboard */,
+				0C2EBF2521EC6F8D0059EBFA /* Info.plist */,
+				0C2EBF2621EC6F8D0059EBFA /* main.m */,
+			);
+			path = TencentOrdinary;
+			sourceTree = "<group>";
+		};
+		0C2EBF2F21EC6F8D0059EBFA /* TencentOrdinaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EBF3021EC6F8E0059EBFA /* TencentOrdinaryTests.m */,
+				0C2EBF3221EC6F8E0059EBFA /* Info.plist */,
+			);
+			path = TencentOrdinaryTests;
+			sourceTree = "<group>";
+		};
+		0C2EBF3A21EC6F8E0059EBFA /* TencentOrdinaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EBF3B21EC6F8E0059EBFA /* TencentOrdinaryUITests.m */,
+				0C2EBF3D21EC6F8E0059EBFA /* Info.plist */,
+			);
+			path = TencentOrdinaryUITests;
+			sourceTree = "<group>";
+		};
+		0C2EBF4921EC70180059EBFA /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EBF5221EC70410059EBFA /* QWDefine.h */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		0C2EBF4A21EC70180059EBFA /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		0C2EBF4B21EC70180059EBFA /* 演绘 */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EBF4D21EC70280059EBFA /* ViewController.h */,
+				0C2EBF4F21EC70280059EBFA /* ViewController.m */,
+				0C2EBF4E21EC70280059EBFA /* WeakScriptMessageDelegate.h */,
+				0C2EBF4C21EC70280059EBFA /* WeakScriptMessageDelegate.m */,
+			);
+			path = "演绘";
+			sourceTree = "<group>";
+		};
+		66E1D5093FBEA2B151E82436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73368D0D2DC048465E00E84 /* Pods_TencentOrdinary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83CDE38DBC70A82CF1A0E224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9967AB568E700FE174F72A5E /* Pods-TencentOrdinary.debug.xcconfig */,
+				24256045031949A723A0DE8C /* Pods-TencentOrdinary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C2EBF1321EC6F8C0059EBFA /* TencentOrdinary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2EBF4021EC6F8E0059EBFA /* Build configuration list for PBXNativeTarget "TencentOrdinary" */;
+			buildPhases = (
+				87A402258FA45EAD79097E4D /* [CP] Check Pods Manifest.lock */,
+				0C2EBF1021EC6F8C0059EBFA /* Sources */,
+				0C2EBF1121EC6F8C0059EBFA /* Frameworks */,
+				0C2EBF1221EC6F8C0059EBFA /* Resources */,
+				E3CC18174B8AF619A1854328 /* [CP] Embed Pods Frameworks */,
+				80ED0C54372E461A105DBF65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TencentOrdinary;
+			productName = TencentOrdinary;
+			productReference = 0C2EBF1421EC6F8C0059EBFA /* TencentOrdinary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C2EBF2B21EC6F8D0059EBFA /* TencentOrdinaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2EBF4321EC6F8E0059EBFA /* Build configuration list for PBXNativeTarget "TencentOrdinaryTests" */;
+			buildPhases = (
+				0C2EBF2821EC6F8D0059EBFA /* Sources */,
+				0C2EBF2921EC6F8D0059EBFA /* Frameworks */,
+				0C2EBF2A21EC6F8D0059EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2EBF2E21EC6F8D0059EBFA /* PBXTargetDependency */,
+			);
+			name = TencentOrdinaryTests;
+			productName = TencentOrdinaryTests;
+			productReference = 0C2EBF2C21EC6F8D0059EBFA /* TencentOrdinaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C2EBF3621EC6F8E0059EBFA /* TencentOrdinaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2EBF4621EC6F8E0059EBFA /* Build configuration list for PBXNativeTarget "TencentOrdinaryUITests" */;
+			buildPhases = (
+				0C2EBF3321EC6F8E0059EBFA /* Sources */,
+				0C2EBF3421EC6F8E0059EBFA /* Frameworks */,
+				0C2EBF3521EC6F8E0059EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2EBF3921EC6F8E0059EBFA /* PBXTargetDependency */,
+			);
+			name = TencentOrdinaryUITests;
+			productName = TencentOrdinaryUITests;
+			productReference = 0C2EBF3721EC6F8E0059EBFA /* TencentOrdinaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C2EBF0C21EC6F8C0059EBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.iqing.TencentOrdinary;
+				TargetAttributes = {
+					0C2EBF1321EC6F8C0059EBFA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0C2EBF2B21EC6F8D0059EBFA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0C2EBF1321EC6F8C0059EBFA;
+					};
+					0C2EBF3621EC6F8E0059EBFA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0C2EBF1321EC6F8C0059EBFA;
+					};
+				};
+			};
+			buildConfigurationList = 0C2EBF0F21EC6F8C0059EBFA /* Build configuration list for PBXProject "TencentOrdinary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C2EBF0B21EC6F8C0059EBFA;
+			productRefGroup = 0C2EBF1521EC6F8C0059EBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C2EBF1321EC6F8C0059EBFA /* TencentOrdinary */,
+				0C2EBF2B21EC6F8D0059EBFA /* TencentOrdinaryTests */,
+				0C2EBF3621EC6F8E0059EBFA /* TencentOrdinaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C2EBF1221EC6F8C0059EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2EBF2421EC6F8D0059EBFA /* LaunchScreen.storyboard in Resources */,
+				0C2EBF2121EC6F8D0059EBFA /* Assets.xcassets in Resources */,
+				0C2EBF1F21EC6F8C0059EBFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2EBF2A21EC6F8D0059EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2EBF3521EC6F8E0059EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80ED0C54372E461A105DBF65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TencentOrdinary/Pods-TencentOrdinary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A402258FA45EAD79097E4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TencentOrdinary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CC18174B8AF619A1854328 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TencentOrdinary/Pods-TencentOrdinary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TencentOrdinary/Pods-TencentOrdinary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C2EBF1021EC6F8C0059EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2EBF2721EC6F8D0059EBFA /* main.m in Sources */,
+				0C2EBF5021EC70280059EBFA /* WeakScriptMessageDelegate.m in Sources */,
+				0C2EBF5121EC70280059EBFA /* ViewController.m in Sources */,
+				0C2EBF1921EC6F8C0059EBFA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2EBF2821EC6F8D0059EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2EBF3121EC6F8E0059EBFA /* TencentOrdinaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2EBF3321EC6F8E0059EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2EBF3C21EC6F8E0059EBFA /* TencentOrdinaryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C2EBF2E21EC6F8D0059EBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C2EBF1321EC6F8C0059EBFA /* TencentOrdinary */;
+			targetProxy = 0C2EBF2D21EC6F8D0059EBFA /* PBXContainerItemProxy */;
+		};
+		0C2EBF3921EC6F8E0059EBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C2EBF1321EC6F8C0059EBFA /* TencentOrdinary */;
+			targetProxy = 0C2EBF3821EC6F8E0059EBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C2EBF1D21EC6F8C0059EBFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2EBF1E21EC6F8C0059EBFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C2EBF2221EC6F8D0059EBFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2EBF2321EC6F8D0059EBFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C2EBF3E21EC6F8E0059EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C2EBF3F21EC6F8E0059EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C2EBF4121EC6F8E0059EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9967AB568E700FE174F72A5E /* Pods-TencentOrdinary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage1;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ55F5JEB2;
+				INFOPLIST_FILE = TencentOrdinary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqing.TencentOrdinary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C2EBF4221EC6F8E0059EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24256045031949A723A0DE8C /* Pods-TencentOrdinary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage1;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ55F5JEB2;
+				INFOPLIST_FILE = TencentOrdinary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqing.TencentOrdinary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C2EBF4421EC6F8E0059EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ55F5JEB2;
+				INFOPLIST_FILE = TencentOrdinaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QingWen.TencentOrdinaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TencentOrdinary.app/TencentOrdinary";
+			};
+			name = Debug;
+		};
+		0C2EBF4521EC6F8E0059EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ55F5JEB2;
+				INFOPLIST_FILE = TencentOrdinaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QingWen.TencentOrdinaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TencentOrdinary.app/TencentOrdinary";
+			};
+			name = Release;
+		};
+		0C2EBF4721EC6F8E0059EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ55F5JEB2;
+				INFOPLIST_FILE = TencentOrdinaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QingWen.TencentOrdinaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TencentOrdinary;
+			};
+			name = Debug;
+		};
+		0C2EBF4821EC6F8E0059EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ55F5JEB2;
+				INFOPLIST_FILE = TencentOrdinaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = QingWen.TencentOrdinaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TencentOrdinary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C2EBF0F21EC6F8C0059EBFA /* Build configuration list for PBXProject "TencentOrdinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2EBF3E21EC6F8E0059EBFA /* Debug */,
+				0C2EBF3F21EC6F8E0059EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2EBF4021EC6F8E0059EBFA /* Build configuration list for PBXNativeTarget "TencentOrdinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2EBF4121EC6F8E0059EBFA /* Debug */,
+				0C2EBF4221EC6F8E0059EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2EBF4321EC6F8E0059EBFA /* Build configuration list for PBXNativeTarget "TencentOrdinaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2EBF4421EC6F8E0059EBFA /* Debug */,
+				0C2EBF4521EC6F8E0059EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C2EBF4621EC6F8E0059EBFA /* Build configuration list for PBXNativeTarget "TencentOrdinaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2EBF4721EC6F8E0059EBFA /* Debug */,
+				0C2EBF4821EC6F8E0059EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C2EBF0C21EC6F8C0059EBFA /* Project object */;
+}
